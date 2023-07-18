@@ -12,10 +12,15 @@ SQL- DQL (DATA QUERY LANGUAGE)
 Some common DQL statements in MySQL include:
 
 •	SELECT: Used to retrieve data from one or more tables based on specified criteria.
+
 •	FROM: Specifies the table or tables from which to retrieve data.
+
 •	WHERE: Specifies the conditions that must be met for a row to be included in the result set.
+
 •	ORDER BY: Sorts the result set based on one or more columns.
+
 •	GROUP BY: Groups the result set based on one or more columns.
+
 •	HAVING: Specifies additional conditions that must be met by grouped rows.
 
 SQL functions
