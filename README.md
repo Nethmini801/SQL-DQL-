@@ -47,10 +47,16 @@ SQL functions
 
 Difference between HAVING clause and WHERE clause.
 
-Having- The HAVING clause is used to filter columns from the source tables before any grouping or aggregation occurs
+Where- The HAVING clause is used to filter columns from the source tables before any grouping or aggregation occurs
 
-Where - The WHERE clause is used to filter columns from the source tables first, and then after that it focuses on the grouping 
+ex : SELECT CustName, dob FROM Customer WHERE salary >= 75000; // pre-filter , working perfectly
+
+Having - The WHERE clause is used to filter columns from the source tables first, and then after that it focuses on the grouping 
         or aggregation process. but if we haven’t filtered any column names that have a connection to the grouping of the aggregation 
         process it gives an error.
+
+ ex : SELECT CustName,dob FROM Customer HAVING salary >= 75000; // post filter ,gives an  error
+
+
 	
 
